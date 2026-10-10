@@ -1,0 +1,23 @@
+# .NET build outputs
+bin/
+obj/
+
+# Frontend dependencies and build output
+StaffManagement.UI/node_modules/
+StaffManagement.UI/dist/
+
+# macOS
+.DS_Store
+
+# IDE and editor files
+.vs/
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
